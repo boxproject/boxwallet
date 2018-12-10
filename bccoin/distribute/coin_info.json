@@ -1,0 +1,30 @@
+[
+  {
+    "coinType": 1,
+    "token": "",
+    "symbol": "BTC",
+    "decimals": 8,
+    "name": "比特币"
+  },
+  {
+    "coinType": 2,
+    "token": "",
+    "symbol": "ETH",
+    "decimals": 18,
+    "name": "以太坊"
+  },
+  {
+    "coinType": 3,
+    "token": "",
+    "symbol": "LTC",
+    "decimals": 8,
+    "name": "莱特币"
+  },
+  {
+    "coinType": 1,
+    "token": "2147483656",
+    "symbol": "USDT",
+    "decimals": 8,
+    "name": "泰达币"
+  }
+]

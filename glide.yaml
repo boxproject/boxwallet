@@ -1,0 +1,68 @@
+package: github.com/boxproject/boxwallet
+import:
+- package: github.com/boxproject/lib-bitcore
+  subpackages:
+  - sebtcjson
+  - selrpcclient
+  - serpcclient
+- package: github.com/btcsuite/btcd
+  version: 67e573d211ace594f1366b4ce9d39726c4b19bd0
+  subpackages:
+  - btcec
+  - chaincfg
+  - chaincfg/chainhash
+  - txscript
+  - wire
+- package: github.com/btcsuite/btcutil
+  version: ab6388e0c60ae4834a1f57511e20c17b5f78be4b
+  subpackages:
+  - hdkeychain
+- package: github.com/dgraph-io/badger
+  version: 514fda268ba28d8a42a712aa2936bcb368885763
+- package: github.com/ethereum/go-ethereum
+  version: ~v1.8.17
+  subpackages:
+  - accounts
+  - accounts/abi
+  - accounts/abi/bind
+  - common
+  - core/types
+  - crypto
+  - ethclient
+- package: github.com/fsnotify/fsnotify
+  version: ~1.4.7
+- package: github.com/go-errors/errors
+  version: ~1.0.1
+- package: github.com/go-sql-driver/mysql
+  version: ~1.4.0
+- package: github.com/jinzhu/gorm
+  version: ~1.9.1
+  subpackages:
+  - dialects/mysql
+- package: github.com/ltcsuite/ltcd
+  version: 01737289d815e0e32c91e55593ba2fbd8d090b2c
+  subpackages:
+  - btcec
+  - chaincfg
+  - chaincfg/chainhash
+  - txscript
+  - wire
+- package: github.com/ltcsuite/ltcutil
+  version: a88d7dfb1c02af5dffe005ad21f40c42d9fd5ad0
+  subpackages:
+  - hdkeychain
+- package: github.com/mitchellh/mapstructure
+  version: ~1.1.2
+- package: github.com/satori/go.uuid
+  version: b2ce2384e17bbe0c6d34077efa39dbab3e09123b
+- package: github.com/sirupsen/logrus
+  version: ~1.2.0
+- package: github.com/spf13/cast
+  version: ~1.3.0
+- package: github.com/spf13/viper
+  version: ~1.2.1
+testImport:
+- package: github.com/stretchr/testify
+  version: ~1.2.2
+  subpackages:
+  - mock
